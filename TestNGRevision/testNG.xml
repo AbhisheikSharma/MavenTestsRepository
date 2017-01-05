@@ -1,0 +1,15 @@
+<suite name="DeltaTestSuite">
+	<test name="FlightSearchandMouseHoverTest" preserve-order="true">
+		<classes>
+			<class name="com.Abhisheik.TestNGRevision.DeltaPortalBasicTest">
+				<methods>
+					<include name="mouseHoverAction" />
+					<include name="tflightBooking" />
+				</methods>
+
+			</class>
+
+
+		</classes>
+	</test>
+</suite>

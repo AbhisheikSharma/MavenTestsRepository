@@ -1,0 +1,18 @@
+<suite name="testNGAnnotation">
+	<test name="annotationsTest" preserve-order="true">
+		<groups>
+		<define name="odd and even">
+				<include name="odd" />
+				<include name="even" />
+		</define>
+			<run>
+			<include name="odd and even" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.Abhisheik.TestNGRevision.TestNGAnnotationsTest">
+
+			</class>
+		</classes>
+	</test>
+</suite>
